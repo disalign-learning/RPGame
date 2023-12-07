@@ -13,6 +13,7 @@ public class playerCharacter
 	int coins;
 	int max_coins;
 	
+	boolean isValid = true;
 	
 	public int playerCharacter(int max_hp, int base_atk, int base_def, int max_coins) 
 	{
