@@ -12,10 +12,8 @@ public class playerCharacter
 	
 	int coins;
 	int max_coins;
-	
-	boolean isValid = true;
-	
-		public playerCharacter(int max_hp, int base_atk, int base_def, int max_coins) 
+
+	public playerCharacter(int max_hp, int base_atk, int base_def, int max_coins) 
 	{
 		this.max_hp = max_hp;
 		this.base_atk = base_atk;
@@ -27,4 +25,7 @@ public class playerCharacter
 		def = base_def;
 		coins = max_coins;
 	}
+
+	
+		
 }
