@@ -6,6 +6,7 @@ public class playerCharacter
 	
 	int atk;
 	int base_atk;
+	int damage;
 	
 	int def;
 	int base_def;
@@ -26,6 +27,5 @@ public class playerCharacter
 		coins = max_coins;
 	}
 
-	
 		
 }
